@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.card-img-fixed-height {
+  height: 200px;
+  /* Adjust as needed */
+  object-fit: cover;
+  /* Maintain aspect ratio */
+}
