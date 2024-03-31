@@ -43,3 +43,16 @@
   object-fit: cover;
   /* Maintain aspect ratio */
 }
+
+.details-img-fixed-height {
+  max-height: 400px;
+  /* Adjust as needed */
+  object-fit: cover;
+  /* Maintain aspect ratio */
+  max-width: 100%;
+}
+
+.grid-item {
+  cursor: pointer;
+  height: 400px;
+}
