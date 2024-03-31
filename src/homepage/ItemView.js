@@ -51,7 +51,7 @@ export const ItemView = ({ thisUser }) => {
           {/* //TODO manage this */}
 
           <Col>
-            <div className="d-flex justify-content-center p-3">
+            <div className="p-3">
               <FloatingLabel
                 controlId="floatingInput"
                 label="Search"
@@ -68,16 +68,18 @@ export const ItemView = ({ thisUser }) => {
             </div>
           </Col>
           <Col>
-            <Button
-              size="lg"
-              onClick={() => {
-                console.log("btn");
-                console.log(modalShow);
-                setModalShow(true);
-              }}
-            >
-              Add Post
-            </Button>
+            <div class="d-flex justify-content-end">
+              <Button
+                size="lg"
+                onClick={() => {
+                  console.log("btn");
+                  console.log(modalShow);
+                  setModalShow(true);
+                }}
+              >
+                Add Post
+              </Button>
+            </div>
           </Col>
           {/* <Col className="d-flex justify-content-end ">
             <DropdownButton

@@ -1,6 +1,6 @@
 import { uid } from "uid";
 
-export var mockData = [
+export let mockData = [
   {
     id: uid(),
     name: "মারকুটে মিজান",
